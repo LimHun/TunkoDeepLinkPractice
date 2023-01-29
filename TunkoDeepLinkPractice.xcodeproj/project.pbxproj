@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4061284E29862C6E008BD433 /* TunkoDeepLinkPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061284D29862C6E008BD433 /* TunkoDeepLinkPracticeApp.swift */; };
+		4061285029862C6E008BD433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061284F29862C6E008BD433 /* ContentView.swift */; };
+		4061285229862C6F008BD433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4061285129862C6F008BD433 /* Assets.xcassets */; };
+		4061285629862C6F008BD433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4061285529862C6F008BD433 /* Preview Assets.xcassets */; };
+		4061286229862D95008BD433 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061286129862D95008BD433 /* Coffee.swift */; };
+		4061286429862E6D008BD433 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061286329862E6D008BD433 /* RootView.swift */; };
+		4061286629862F3E008BD433 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061286529862F3E008BD433 /* AppDataModel.swift */; };
+		406128702986344C008BD433 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061286F2986344C008BD433 /* HomeTabView.swift */; };
+		406128722986345B008BD433 /* ProtfolioTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406128712986345B008BD433 /* ProtfolioTabView.swift */; };
+		406128742986346B008BD433 /* WriteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406128732986346B008BD433 /* WriteTabView.swift */; };
+		4061287629863478008BD433 /* SearchTabIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061287529863478008BD433 /* SearchTabIView.swift */; };
+		4061287829863484008BD433 /* SettingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4061287729863484008BD433 /* SettingTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4061284A29862C6E008BD433 /* TunkoDeepLinkPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TunkoDeepLinkPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4061284D29862C6E008BD433 /* TunkoDeepLinkPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunkoDeepLinkPracticeApp.swift; sourceTree = "<group>"; };
+		4061284F29862C6E008BD433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4061285129862C6F008BD433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4061285329862C6F008BD433 /* TunkoDeepLinkPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TunkoDeepLinkPractice.entitlements; sourceTree = "<group>"; };
+		4061285529862C6F008BD433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4061286129862D95008BD433 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		4061286329862E6D008BD433 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4061286529862F3E008BD433 /* AppDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		4061286F2986344C008BD433 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		406128712986345B008BD433 /* ProtfolioTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtfolioTabView.swift; sourceTree = "<group>"; };
+		406128732986346B008BD433 /* WriteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTabView.swift; sourceTree = "<group>"; };
+		4061287529863478008BD433 /* SearchTabIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabIView.swift; sourceTree = "<group>"; };
+		4061287729863484008BD433 /* SettingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTabView.swift; sourceTree = "<group>"; };
+		406128792986411B008BD433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4061284729862C6E008BD433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4061284129862C6E008BD433 = {
+			isa = PBXGroup;
+			children = (
+				4061284C29862C6E008BD433 /* TunkoDeepLinkPractice */,
+				4061284B29862C6E008BD433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4061284B29862C6E008BD433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4061284A29862C6E008BD433 /* TunkoDeepLinkPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4061284C29862C6E008BD433 /* TunkoDeepLinkPractice */ = {
+			isa = PBXGroup;
+			children = (
+				406128792986411B008BD433 /* Info.plist */,
+				4061284D29862C6E008BD433 /* TunkoDeepLinkPracticeApp.swift */,
+				4061284F29862C6E008BD433 /* ContentView.swift */,
+				4061285E29862D76008BD433 /* ViewModel */,
+				4061285D29862D1F008BD433 /* Model */,
+				4061285C29862D18008BD433 /* View */,
+				4061285129862C6F008BD433 /* Assets.xcassets */,
+				4061285329862C6F008BD433 /* TunkoDeepLinkPractice.entitlements */,
+				4061285429862C6F008BD433 /* Preview Content */,
+			);
+			path = TunkoDeepLinkPractice;
+			sourceTree = "<group>";
+		};
+		4061285429862C6F008BD433 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4061285529862C6F008BD433 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4061285C29862D18008BD433 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4061286329862E6D008BD433 /* RootView.swift */,
+				4061286829863392008BD433 /* Tabs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4061285D29862D1F008BD433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4061286129862D95008BD433 /* Coffee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4061285E29862D76008BD433 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4061286529862F3E008BD433 /* AppDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4061286729863381008BD433 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4061287529863478008BD433 /* SearchTabIView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		4061286829863392008BD433 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				406128692986339E008BD433 /* Home */,
+				4061286C298633BD008BD433 /* Protfolio */,
+				4061286A298633A4008BD433 /* Write */,
+				4061286729863381008BD433 /* Search */,
+				4061286B298633AD008BD433 /* Setting */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		406128692986339E008BD433 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4061286F2986344C008BD433 /* HomeTabView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4061286A298633A4008BD433 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				406128732986346B008BD433 /* WriteTabView.swift */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		4061286B298633AD008BD433 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4061287729863484008BD433 /* SettingTabView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4061286C298633BD008BD433 /* Protfolio */ = {
+			isa = PBXGroup;
+			children = (
+				406128712986345B008BD433 /* ProtfolioTabView.swift */,
+			);
+			path = Protfolio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4061284929862C6E008BD433 /* TunkoDeepLinkPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4061285929862C6F008BD433 /* Build configuration list for PBXNativeTarget "TunkoDeepLinkPractice" */;
+			buildPhases = (
+				4061284629862C6E008BD433 /* Sources */,
+				4061284729862C6E008BD433 /* Frameworks */,
+				4061284829862C6E008BD433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TunkoDeepLinkPractice;
+			productName = TunkoDeepLinkPractice;
+			productReference = 4061284A29862C6E008BD433 /* TunkoDeepLinkPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4061284229862C6E008BD433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4061284929862C6E008BD433 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4061284529862C6E008BD433 /* Build configuration list for PBXProject "TunkoDeepLinkPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4061284129862C6E008BD433;
+			productRefGroup = 4061284B29862C6E008BD433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4061284929862C6E008BD433 /* TunkoDeepLinkPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4061284829862C6E008BD433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4061285629862C6F008BD433 /* Preview Assets.xcassets in Resources */,
+				4061285229862C6F008BD433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4061284629862C6E008BD433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4061287629863478008BD433 /* SearchTabIView.swift in Sources */,
+				4061285029862C6E008BD433 /* ContentView.swift in Sources */,
+				4061284E29862C6E008BD433 /* TunkoDeepLinkPracticeApp.swift in Sources */,
+				406128742986346B008BD433 /* WriteTabView.swift in Sources */,
+				4061286429862E6D008BD433 /* RootView.swift in Sources */,
+				4061287829863484008BD433 /* SettingTabView.swift in Sources */,
+				406128702986344C008BD433 /* HomeTabView.swift in Sources */,
+				4061286229862D95008BD433 /* Coffee.swift in Sources */,
+				4061286629862F3E008BD433 /* AppDataModel.swift in Sources */,
+				406128722986345B008BD433 /* ProtfolioTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4061285729862C6F008BD433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4061285829862C6F008BD433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4061285A29862C6F008BD433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TunkoDeepLinkPractice/TunkoDeepLinkPractice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TunkoDeepLinkPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = SJKHCRL68N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TunkoDeepLinkPractice/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunko.TunkoDeepLinkPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4061285B29862C6F008BD433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TunkoDeepLinkPractice/TunkoDeepLinkPractice.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TunkoDeepLinkPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = SJKHCRL68N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TunkoDeepLinkPractice/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tunko.TunkoDeepLinkPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4061284529862C6E008BD433 /* Build configuration list for PBXProject "TunkoDeepLinkPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4061285729862C6F008BD433 /* Debug */,
+				4061285829862C6F008BD433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4061285929862C6F008BD433 /* Build configuration list for PBXNativeTarget "TunkoDeepLinkPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4061285A29862C6F008BD433 /* Debug */,
+				4061285B29862C6F008BD433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4061284229862C6E008BD433 /* Project object */;
+}
