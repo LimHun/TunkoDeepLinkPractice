@@ -1,5 +1,5 @@
 # TunkoDeepLinkPractice 
-##딥링크 테스트 
+##딥링크 테스트 예제
 
 coffeeapp://탭이름  
 coffeeapp://커피아이디 
